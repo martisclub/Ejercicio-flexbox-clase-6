@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #ebedf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article{
+   width: 40%;
+    background-color: #fffeff;
+
+    border-radius: 10px;
+    box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.49);
+  
+}
+
+.cont-header-contet{
+padding: 20px;
+}
+   
+h2{
+    color: rgb(85, 205, 165);
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+h3{
+    color: rgb(214, 240, 68);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+article p {
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.cont-item {
+    display: flex;
+}
+
+.cont-item div{
+    width: 50%;
+    padding: 20px;
+}
+
+.cont-m-subscription {
+    background-color: #16b3b0;
+    border-bottom-left-radius:10px;
+
+}
+
+.cont-m-subscription h4{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.cont-m-subscription strong {
+    font-size: 25px;
+
+}
+
+.cont-m-subscription p{
+    color: white;
+}
+
+.cont-m-subscription button{
+    width: 80%;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #c2de3a;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.49);
+
+}
+
+
+.cont-m-subscription button:hover {
+    background-color: #a3bf13;
+}
+
+.cont-why-us h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+.cont-why-us p{
+color: white;
+
+}
+
+.cont-why-us {
+    background-color: #3ebfbf;
+    color: white;
+    border-bottom-right-radius:10px;
+
+}
